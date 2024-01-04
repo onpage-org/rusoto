@@ -1,7 +1,8 @@
 repo_name: onpage-org/rusoto
 report_id: 8455a844d11228f7d305aa9eef72482d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T11:50:03+00:00'
+timestamp: '2024-01-04T14:53:09+00:00'
 requested_by: wilzbach
 provider: github
 branch: master
@@ -16,7 +17,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source: rusoto/services/sts/Cargo.toml
+  detection_source_url: https://github.com/onpage-org/rusoto/blob/master/rusoto/credential/Cargo.toml
+  detection_source: rusoto/credential/Cargo.toml
   last_updated_by: Matthew Mayer
   last_updated_on: 2016-11-23 03:32:03.000000000 Z
 - name: Python
@@ -28,6 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/onpage-org/rusoto
   detection_source: Repo Metadata
 - name: Rust
   description: A safe, concurrent, practical language
@@ -37,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/onpage-org/rusoto
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/onpage-org/rusoto
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -55,6 +60,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/onpage-org/rusoto/blob/master/.github/workflows/build.yml
   detection_source: ".github/workflows/build.yml"
   last_updated_by: Mason Gup
   last_updated_on: 2020-10-29 23:51:08.000000000 Z
@@ -66,7 +72,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Containers as a Service
   image_url: https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg
-  detection_source: rusoto/signature/Cargo.toml
+  detection_source_url: https://github.com/onpage-org/rusoto/blob/master/rusoto/core/Cargo.toml
+  detection_source: rusoto/core/Cargo.toml
   last_updated_by: iliana etaoin
   last_updated_on: 2022-04-25 02:01:18.000000000 Z
 - name: PyPI
@@ -77,7 +84,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source: rusoto/signature/Cargo.toml
+  detection_source_url: https://github.com/onpage-org/rusoto/blob/master/integration_tests/Cargo.toml
+  detection_source: integration_tests/Cargo.toml
   last_updated_by: Anthony DiMarco
   last_updated_on: 2015-07-15 00:56:24.000000000 Z
 - name: npm
@@ -88,7 +96,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: rusoto/services/sts/Cargo.toml
+  detection_source_url: https://github.com/onpage-org/rusoto/blob/master/rusoto/credential/Cargo.toml
+  detection_source: rusoto/credential/Cargo.toml
   last_updated_by: Nikita Pekin
   last_updated_on: 2016-11-17 17:26:30.000000000 Z
 - name: Shell
@@ -100,4 +109,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/onpage-org/rusoto
   detection_source: Repo Metadata
